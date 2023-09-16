@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color:dimgrey ;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(red, green, blue);
+            padding: 3px;
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.164);
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 5px 3px 7px 1px rgb(27, 2, 2);
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 20px 20px;
+        }
+
+        article{
+            background-color:blanchedalmond(246, 229, 204, 0.005)  }
+
+        article > aside{
+            background-color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: wheat;
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Meu site</h1>
+        <nav>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            <a href="a">Link</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia Sobre Angola</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur similique assumenda repudiandae quia quibusdam architecto voluptate suscipit eligendi iusto odit recusandae ad voluptas illum laboriosam dolor adipisci, cupiditate hic reiciendis?</p>
+                <aside>Artigo escrito por Elisio Garcia</aside>
+            </article>
+
+        </section>
+    </main>
+    <div id="bola">
+
+    </div>
+    <footer>
+        desenvolvido por Elisio
+    </footer>
+
+</body>
+</html>
